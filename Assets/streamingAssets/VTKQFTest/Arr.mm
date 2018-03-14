@@ -1,0 +1,1 @@
+Normals 3 point 0.999999 1 FI1 1 point 0 0.5 Pressure 1 point -84.9491 2416.91 

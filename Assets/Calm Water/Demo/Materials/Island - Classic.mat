@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Island - Classic
+  m_Shader: {fileID: 4800000, guid: 64cc94e88500a904084a18cf5fcb2991, type: 3}
+  m_ShaderKeywords: HIGH REFLECTION_OFF _DEPTHFOG_ON _DISPLACEMENTMODE_GERSTNER _DISPLACEMENT_ON
+    _DISTORTIONQUALITY_HIGH _FOAM_ON _REFLECTIONTYPE_REALTIME
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BRDF:
+        m_Texture: {fileID: 2800000, guid: 8c3103544c2758f4c84875d1cc3fe7a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 26409920616e41e44bcf1e1d60dcbfb2, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 367ce3cf5eb9948419c7cfe09556c3c8, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DispTex:
+        m_Texture: {fileID: 2800000, guid: 80903a64842f18b4bb74b44e72c92b9c, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: f3ed797cad96fec41b94d8626de3f1ab, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _GlowTex:
+        m_Texture: {fileID: 2800000, guid: 8b3fd6d94c67e444894ece74d330da4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Multiply:
+        m_Texture: {fileID: 2800000, guid: 33d15a2a49c2b624592116b926203c58, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 80903a64842f18b4bb74b44e72c92b9c, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 53c6885811236e74fb5278b5d3089b47, type: 3}
+        m_Scale: {x: 40, y: 40}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 76ca66cc53dd19d4c8f4c21ad2d85783, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionRamp:
+        m_Texture: {fileID: 2800000, guid: 64ca8568607bdbe4ca51796b1a61ac07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Amplitude: 9.2
+    - _BumpStrength: 0.55
+    - _DISPLACEMENT: 1
+    - _Depth: 1.9
+    - _DepthFog: 1
+    - _Displacement: 0.75
+    - _DisplacementMode: 2
+    - _Distortion: 23.5
+    - _DistortionQuality: 0
+    - _EdgeFade: 1.15
+    - _EdgeLength: 2
+    - _EnableFog: 1
+    - _FOAM: 1
+    - _FoamFade: 1.3
+    - _FoamSize: 1.41
+    - _Frequency: 1.02
+    - _MaxDist: 100
+    - _MinDist: 50
+    - _NoiseFrequency: 48.24
+    - _NoisePower: 0.35
+    - _NoiseSpeed: 1
+    - _ReflectRange: 0.08955229
+    - _Reflection: 1
+    - _ReflectionPower: 0.5
+    - _ReflectionRange: 0.2238806
+    - _ReflectionType: 1
+    - _RimPower: 21.1
+    - _Shininess: 0.9
+    - _Smoothing: 0.73
+    - _Smoothness: 2.98
+    - _Speed: 1
+    - _SpeedX: 0.3
+    - _SpeedY: 0.5
+    - _Steepness: 0.55
+    - _Tess: 128
+    - _WSpeed: 1
+    m_Colors:
+    - _Color: {r: 0.5143871, g: 0.9852943, b: 0.88786644, a: 1}
+    - _CubeColor: {r: 0.29682097, g: 0.6164621, b: 0.66176474, a: 1}
+    - _CubeTint: {r: 1, g: 1, b: 1, a: 1}
+    - _DepthColor: {r: 0.050551474, g: 0.30321828, b: 0.4044118, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _NormalSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0.63432837, g: 0.63432837, b: 0.63432837, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Speed: {r: 0.5, g: 0.5, b: 2, a: 0.5}
+    - _Speed1: {r: 0.86, g: 0, b: 0, a: 0}
+    - _Speed2: {r: 0.57, g: 0.18, b: 0, a: 0}
+    - _WDirectionAB: {r: 0.3, g: 0.85, b: 0.85, a: 0.25}
+    - _WDirectionCD: {r: 0.1, g: 0.9, b: 0.5, a: 0.5}
+    - _WSpeed: {r: 1.5, g: 1, b: 1.8, a: 1.5}
